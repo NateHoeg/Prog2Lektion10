@@ -9,7 +9,7 @@ public class Loan {
         this.returnDate = returnDate;
     }
 
-    public int calculateFine(LocalDate calculatedDate, LocalDate actualDate, boolean adult) {
+    public int calculateFine(LocalDate actualDate, boolean adult) {
         return 0;
     }
 
